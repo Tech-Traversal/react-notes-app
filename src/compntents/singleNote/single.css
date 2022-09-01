@@ -1,0 +1,33 @@
+.content textarea{
+    height: 180px;
+    overflow-y: scroll;
+    padding-top: 28px;
+}
+
+textarea::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+}
+
+textarea::-webkit-scrollbar-track{
+    background-color: skyblue;
+}
+textarea::-webkit-scrollbar-thumb{
+    background-color: blue;
+    border-radius: 6px;
+}
+
+
+.priority{
+    width: 60px;
+    border-radius: 0px 0px 30px 30px;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.star:hover{
+    transform: scale(1.2);
+    transition: 0.2s ease;
+}
